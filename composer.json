@@ -1,0 +1,21 @@
+{
+    "name": "madeiramadeira/test",
+    "description": "Teste backend madeiramadeira",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ricardo Tanaka",
+            "email": "ricardokenjit@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MadeiraMadeira\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
